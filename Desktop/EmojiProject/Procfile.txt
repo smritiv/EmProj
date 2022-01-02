@@ -1,1 +1,1 @@
-web: gunicorn EmProj:app --preload
+web: waitress-serve --port=$PORT EmProj.wsgi:application
