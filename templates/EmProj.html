@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <title> How Are You Feeling? </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/static/styles/EmProj.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1 id="header">How Are You Feeling?</h1>
+            <input type="image" src="/static/images/happyface.jpg" name="happyface" class="emojis" id="hf" />
+            <input type="image" src="/static/images/meh.jpg" name="mehface" class="emojis" id="nf" />
+            <input type="image" src="/static/images/sadface.jpg" name="sadface" class="emojis" id="sf" />
+        </div>
+        <form action="/write" method="post">
+            <button id="bt">Want to elaborate?</button>
+        </form>
+        <div id="result"></div>
+        <script src="/static/jsfiles/EmProj.js"></script>
+    </body>
+</html>
+
+<!--pictures are in file-->
