@@ -1,0 +1,13 @@
+#wrapper{
+    background-color: lightgreen;
+    border-radius: 6px;
+    width: 1000px;
+    text-align: center;
+}
+
+#header{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+}
+
