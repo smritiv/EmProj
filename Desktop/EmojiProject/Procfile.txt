@@ -1,1 +1,2 @@
 web: gunicorn EmProj:app
+heroku ps:scale web=1
